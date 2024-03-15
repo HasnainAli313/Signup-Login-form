@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/* Container */
+.container{
+    background-color: #7DA0BA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Sign-up form */
+.sign-form{
+    background-color: #bacdce;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 10px skyblue;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+/* Form */
+.swaping{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+#login-swap{
+    padding:10px;
+    position: relative;
+    right: 10px;
+    width: 50%;
+    border-radius:20px; 
+    border: 1px solid black;
+
+}
+#signup-swap{
+    position: relative;
+    border: 1px solid black;
+    left: 17px;
+    padding:10px;
+    padding-right:30px;
+    border-radius:20px;
+    background-color:  rgb(4, 107, 217);
+    color: white;
+}
+
+form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    gap: 10px;
+    width: 80%;
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+#submit-btn{
+    background-color: rgb(4, 107, 217);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#submit-btn:hover{
+    background-color: rgb(2, 88, 180);
+    
+}
+
+/* User */
+#asking{
+    color: rgba(13, 13, 203, 0.674);
+    cursor: pointer;
+}
+.asking-user{
+    margin-top:20px;
+}
+.swap{
+    cursor: pointer;
+}
