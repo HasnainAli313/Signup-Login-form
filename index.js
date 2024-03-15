@@ -18,6 +18,7 @@ confirmPasswordInput.addEventListener('input', () => {
 // Swap to login-form using login text
 var asking = document.getElementById('asking');
 var user = document.getElementById('user');
+var h1 = document.getElementById('h1');
 var isDisplayed = true;
 asking.addEventListener('click', function(){
     var removeEmail = document.getElementById('email');
@@ -29,6 +30,7 @@ asking.addEventListener('click', function(){
      loginSwap.style.color="white";
      SignupSwap.style.backgroundColor="white";
      SignupSwap.style.color="black";
+     h1.innerHTML="Login Form";
      asking.textContent="Signup"
      user.textContent="Don't have? Create a new account"
      isDisplayed = false;
@@ -40,6 +42,7 @@ asking.addEventListener('click', function(){
      SignupSwap.style.color="white";
      loginSwap.style.backgroundColor="white";
      loginSwap.style.color="black";
+     h1.innerHTML="Signup Form";
         asking.textContent="Login";
      user.textContent="Already have an account?";
      isDisplayed = true;
@@ -61,6 +64,7 @@ loginSwap.addEventListener('click', function(){
      loginSwap.style.color="white";
      SignupSwap.style.backgroundColor="white";
      SignupSwap.style.color="black";
+     h1.innerHTML="Login Form";
      asking.textContent="Signup"
      user.textContent="Don't have? Create a new account"
      isDisplayed=false;
@@ -81,6 +85,7 @@ SignupSwap.addEventListener('click', function(){
      SignupSwap.style.color="white";
      loginSwap.style.backgroundColor="white";
      loginSwap.style.color="black";
+     h1.innerHTML="Signup Form";
      asking.textContent="Login"
      user.textContent="Already have an account? "
      isDisplayed=true;
